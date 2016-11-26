@@ -27,11 +27,11 @@ public class HibernateTestApp
 		user.setUsername("name1");
 		
 		Set<Aphorism> aphorismSet = new HashSet<Aphorism>();
-		//aphorismSet.add(new Aphorism("content1",user));
-	//	aphorismSet.add(new Aphorism("content2",user));
+		aphorismSet.add(new Aphorism("content1",user));
+		aphorismSet.add(new Aphorism("content2",user));
 		
-		aphorismSet.add(new Aphorism("content1"));
-		aphorismSet.add(new Aphorism("content2"));
+		//aphorismSet.add(new Aphorism("content1"));
+		//aphorismSet.add(new Aphorism("content2"));
 		
 		
 		user.setAphorismSet(aphorismSet);
